@@ -21,7 +21,7 @@ var zones = {
     ],
     amenities:["shops"],
     loot:[],
-    warning:"Often raided!  Aggros in jungle!"
+    warning:"Aggros in jungle!"
   },
   myra: {
     name:"Myrabolus",

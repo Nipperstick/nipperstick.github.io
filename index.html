@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <link rel="stylesheet" type="text/css" href="css/surface.css">
+  <link rel="stylesheet" type="text/css" href="css/map.css">
 </head>
 <body>
   <div id="mapTip">
     <div><span id="zoneName"></span></div>
     <div class="zoneDetails">
-      <div>Levels <span id="zoneMin"></span>-<span id="zoneMax"></span></div>
+      <div>Levels <span id="zoneMin"></span>-<span id="zoneMax"></span><span id="zoneCont"></span></div>
+      <div id="zoneWarning"></div>
+      <div id="zoneAmenities"></div>
       <div>
-        <i>Connections</i><span id="zoneCnx"></span>
+        <span id="zoneCnx"></span>
       </div>
       <div>
-        <i>Key Mobs</i><span id="zoneMobs"></span>
+        <span id="zoneAmenities"></span>
       </div>
       <div>
-        <i>Quests</i><span id="zoneQuests"></span>
+        <span id="zoneQuests"></span>
       </div>
       <div>
-        <i>Items</i><span id="zoneItems"></span>
+        <span id="zoneLoot"></span>
       </div>
     </div>
   </div>
   <img src="map/surface.jpg" usemap="#surfacemap">
   <map id="surfacemap" name="surfacemap"></map>
-  <script src="js/surface.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/map.js"></script>
 </body>
 </html>

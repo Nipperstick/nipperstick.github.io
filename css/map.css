@@ -19,6 +19,15 @@
   color: #FFD1AA;
 }
 
+#zoneCont {
+  float: right;
+}
+
+#zoneWarning {
+  color: red;
+  font-style:italic;
+}
+
 .zoneDetails {
   font-size: .8em;
 }
